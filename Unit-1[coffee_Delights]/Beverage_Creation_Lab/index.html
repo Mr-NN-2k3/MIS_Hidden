@@ -13,16 +13,24 @@
         <h1>Beverage Creation Lab</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#workshops">Workshops</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a class="nav_class" href="index.html">Home</a></li>
+                <li><a class="nav_class" href="#about">About</a></li>
+                <li><a class="nav_class" href="#menu">Menu</a></li>
+                <li><a class="nav_class" href="#workshops">Workshops</a></li>
+                <li><a class="nav_class" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h2>Welcome to the Beverage Creation Lab</h2>
+                <p>Where innovation meets passion</p>
+                <a href="#about" class="btn">Learn More</a>
+            </div>
+        </section>
+
         <section id="about">
             <h2>About the Beverage Creation Lab</h2>
             <p>Welcome to our Beverage Creation Lab, where innovation meets passion. Our lab is dedicated to crafting
@@ -32,14 +40,28 @@
 
         <section id="menu">
             <h2>Our Specialties</h2>
-            <ul>
-                <li>Signature Espresso Blends</li>
-                <li>Cold Brew Innovations</li>
-                <li>Seasonal Coffee Specials</li>
-                <li>Experimental Brews</li>
-                <li>Latte Art Creations</li>
-            </ul>
-            <img src="images/specialty-coffee.jpg" alt="Specialty Coffee">
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <h3>Signature Espresso Blends</h3>
+                    <p>Experience the rich and bold flavors of our signature espresso blends.</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Cold Brew Innovations</h3>
+                    <p>Discover our refreshing and innovative cold brew creations.</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Seasonal Coffee Specials</h3>
+                    <p>Indulge in our seasonal coffee specials, crafted with the finest ingredients.</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Experimental Brews</h3>
+                    <p>Try our experimental brews, where we push the boundaries of coffee making.</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Latte Art Creations</h3>
+                    <p>Enjoy our beautifully crafted latte art creations.</p>
+                </div>
+            </div>
         </section>
 
         <section id="workshops">
